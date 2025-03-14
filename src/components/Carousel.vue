@@ -1,0 +1,34 @@
+<script setup lang="ts">
+
+    interface Prop {
+        id: number,
+        title: string,
+        category: string,
+        author: string,
+        date: string,
+        thumbnail: string,
+    }
+    const props = defineProps<Prop>();
+</script>
+<template>
+    <div class="h-screen w-full relative">
+        <img class="w-full h-full object-cover" :src="props.thumbnail" alt="Carousel">
+        <div class="bg-black h-full w-full absolute top-0 left-0 z-10 opacity-50"></div>
+        <div class="h-full w-full absolute top-0 left-0 flex justify-between z-20">
+            <div class="w-[50%] h-full flex justify-center flex-col ml-[2.5%]">
+                <h1 class="text-white text-[50px] font-bold">{{ props.title }}</h1>
+                <div class="flex items-center gap-2 text-white">
+                    <span>{{ props.author }}</span>
+                    <span>•</span>
+                    <span>{{ props.category }}</span>
+                    <span>•</span>
+                    <span>{{ props.date }}</span>
+                </div>
+                <div class="flex items-center gap-2 mt-4">
+                    <button class="h-[50px] bg-white text-gray-600 px-10 border-[1px] border-white transition-all duration-700 hover:bg-transparent hover:text-white">បន្តការអាន</button>
+                    <button class="h-[50px] bg-gray-400 text-gray-600 px-10 border-[1px] border-white transition-all duration-700 hover:bg-red-500 hover:text-white">អំពីអ្នកនិពន្ធ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
