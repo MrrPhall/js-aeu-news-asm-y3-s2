@@ -3,10 +3,8 @@
     import carouselItems from '../../data/carousel';
     import { Swiper, SwiperSlide } from 'swiper/vue';
     import { Pagination, A11y, Autoplay } from 'swiper/modules';
-    import 'swiper/css';
-    import 'swiper/css/navigation';
-    import 'swiper/css/pagination';
-    import 'swiper/css/scrollbar';
+    import '../../../node_modules/swiper/swiper.css'
+    import '../../../node_modules/swiper/modules/pagination.css'
     import { ref } from 'vue';
     const modules = ref([Pagination, A11y, Autoplay]);
     const onSlideChange = () => {
