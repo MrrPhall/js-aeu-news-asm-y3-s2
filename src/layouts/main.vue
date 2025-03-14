@@ -1,4 +1,9 @@
+<script setup lang="ts">
+    import Navbar from '../components/Navbar.vue';
+</script>
 <template>
-    <div>Main</div>
-    <RouterView/>
+    <div>
+        <Navbar/>
+        <RouterView/>
+    </div>
 </template>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
 import Main from "../layouts/main.vue";
 import Home from "../pages/home/index.vue";
+import Category from "../pages/category/index.vue";
 const routes: Array<RouteRecordRaw> = [
     {
         path: '/',
@@ -10,6 +11,11 @@ const routes: Array<RouteRecordRaw> = [
                 path: '/',
                 component: Home,
                 name: 'home',
+            },
+            {
+                path: '/category/:id',
+                component: Category,
+                name: 'category',
             },
         ],
     }
