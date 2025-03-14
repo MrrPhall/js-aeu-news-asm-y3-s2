@@ -1,8 +1,7 @@
 <script setup lang="ts">
-    import { useCounterStore } from '../../stores/counter';
 
 </script>
 
 <template>
-    
+    <h1>Home Page</h1>
 </template>
