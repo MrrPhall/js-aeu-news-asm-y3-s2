@@ -11,13 +11,13 @@
     const props = defineProps<Prop>();
 </script>
 <template>
-    <div class="h-screen w-full relative">
+    <div class="sm:h-[50vh] md:h-screen w-full relative">
         <img class="w-full h-full object-cover" :src="props.thumbnail" alt="Carousel">
         <div class="bg-black h-full w-full absolute top-0 left-0 z-10 opacity-50"></div>
         <div class="h-full w-full absolute top-0 left-0 flex justify-between z-20">
-            <div class="w-[50%] h-full flex justify-center flex-col ml-[2.5%]">
-                <h1 class="text-white text-[50px] font-bold">{{ props.title }}</h1>
-                <div class="flex items-center gap-2 text-white">
+            <div class="w-[80%] md:w-[50%] h-full flex justify-center flex-col ml-[2.5%]">
+                <h1 class="text-white sm:text-[20px] md:text-[50px] font-bold">{{ props.title }}</h1>
+                <div class="flex items-center gap-2 text-white text-[12px] md:text-[15px]">
                     <span>{{ props.author }}</span>
                     <span>•</span>
                     <span>{{ props.category }}</span>

@@ -49,7 +49,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/a0a4c4f4-d307-48e0-8262-0634a9319588',
         },
         date: 'MARCH 13 2025',
-        view: 417,
+        view: 1,
         thumbnail: 'https://business-cambodia.com/cms/assets/2a468faa-ad5d-45e2-b35a-91df6a6ff25a',
     },
     {
