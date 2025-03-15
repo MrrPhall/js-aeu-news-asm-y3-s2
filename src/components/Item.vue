@@ -22,7 +22,11 @@ import { viewFormater } from '../utils/view';
 
 <template>
     <RouterLink :to="{
-        name: 'home'
+        name: 'detail',
+        params: {
+            id: props.id,
+            title: props.title
+        }
     }" class="bg-white shadow-md rounded-2xl">
         <div class="w-full md:h-[180px] group overflow-hidden rounded-lg">
             <img class="h-full w-full transition-all ease-in-out duration-300 object-cover group-hover:scale-[115%]" :src="props.thumbnail" alt="Thumbnail">
