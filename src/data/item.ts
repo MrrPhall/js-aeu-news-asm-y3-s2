@@ -25,7 +25,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 13 2025',
-        view: 417,
+        view: 4174,
         thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
     },
     {
@@ -37,7 +37,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 2 2025',
-        view: 417,
+        view: 1200000,
         thumbnail: 'https://business-cambodia.com/cms/assets/bbacb53a-2f36-4e61-b4e0-9a3cd208f067',
     },
     {
@@ -61,7 +61,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 13 2025',
-        view: 417,
+        view: 232324,
         thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
     },
     {
@@ -73,7 +73,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 13 2025',
-        view: 417,
+        view: 68876544342,
         thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
     },
     {
@@ -85,7 +85,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 13 2025',
-        view: 417,
+        view: 57654,
         thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
     },
     {
@@ -97,7 +97,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 13 2025',
-        view: 417,
+        view: 643246311,
         thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
     },
     {
@@ -109,7 +109,7 @@ const items = ref<ItemType[]>([
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 13 2025',
-        view: 417,
+        view: 76534,
         thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
     }
 ]);

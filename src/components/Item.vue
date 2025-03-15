@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { viewFormater } from '../utils/view';
+
     interface Author {
         name: string,
         profile: string,
@@ -32,7 +34,7 @@
             <div>
                 <h3 class="text-gray-600 font-bold">{{ props.author.name }}</h3>
                 <h4 class="text-gray-400 text-[12px]">{{ props.date }}</h4>
-                <h4 class="text-gray-400 text-[12px]">{{ props.view }} View<span v-if="props.view > 1">s</span></h4>
+                <h4 class="text-gray-400 text-[12px]">{{ viewFormater(props.view) }} View<span v-if="props.view > 1">s</span></h4>
             </div>
         </div>
     </RouterLink>
