@@ -1,9 +1,21 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue';
-import menuItems  from '../data/menu';
-import { useNavbarStore } from '../stores/navbar';
+    import { Icon } from '@iconify/vue';
+    import menuItems  from '../data/menu';
+    import { useNavbarStore } from '../stores/navbar';
 
     const navbarStore = useNavbarStore();
+    window.addEventListener('scroll', ()=>{
+        if(navbarStore.isHome === true){
+            if(window.pageYOffset > 80) {
+                navbarStore.handleNavbar(true);
+            }else{
+                navbarStore.handleNavbar(false);
+            }
+        }else{
+            navbarStore.handleNavbar(true);
+        }
+    });
+
 </script>
 <template>
     <nav class="w-full h-20 flex items-center justify-center fixed z-[20000] top-0 transition-all" :class="navbarStore.isWhite ? 'bg-white shadow-sm' : 'bg-transparent shadow-none'">

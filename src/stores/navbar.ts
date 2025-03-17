@@ -6,11 +6,13 @@ export const useNavbarStore = defineStore(
     ()=>{
 
         const isWhite = ref<boolean>(true);
+        const isHome = ref<boolean>(false);
         const handleNavbar = (e: boolean) =>{
             isWhite.value = e;
         }
         return {
             isWhite,
+            isHome,
             handleNavbar,
         }
     }

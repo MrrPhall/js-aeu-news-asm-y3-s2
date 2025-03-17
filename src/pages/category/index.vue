@@ -18,6 +18,7 @@ import { onMounted, ref } from 'vue';
 
     onMounted(()=>{
         navbarStore.handleNavbar(true);
+        navbarStore.isHome = false;
         handleLoading();
     });
 

@@ -15,17 +15,10 @@
     };
 
     const navbarStore = useNavbarStore();
-
-    window.addEventListener('scroll', ()=>{
-        if(window.pageYOffset > 80){
-            navbarStore.handleNavbar(true);
-        }else{
-            navbarStore.handleNavbar(false);
-        }
-    });
-
+    
     onMounted(()=>{
         navbarStore.handleNavbar(false);
+        navbarStore.isHome = true;
     });
 
 

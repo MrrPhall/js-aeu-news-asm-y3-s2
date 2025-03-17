@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue';
-import items from '../../data/item';
-import { useRoute } from 'vue-router';
-import type { ItemType } from '../../utils/type';
-import { useNavbarStore } from '../../stores/navbar';
+    import { computed, onMounted, ref } from 'vue';
+    import items from '../../data/item';
+    import { useRoute } from 'vue-router';
+    import type { ItemType } from '../../utils/type';
+    import { useNavbarStore } from '../../stores/navbar';
     const router = useRoute();
     const selectItem = computed<ItemType | null>(() => {
         return items.value.find(item => item.id === Number(router.params.id)) || null;
@@ -20,6 +20,7 @@ import { useNavbarStore } from '../../stores/navbar';
     const navbarStore = useNavbarStore();
     onMounted(()=>{
         navbarStore.handleNavbar(true);
+        navbarStore.isHome = false;
         handleLoading();
     });
 
