@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { onBeforeRouteUpdate, useRoute } from 'vue-router';
+    import { useRoute } from 'vue-router';
 import { useNavbarStore } from '../../stores/navbar';
 import { onMounted, ref } from 'vue';
 
@@ -12,9 +12,6 @@ import { onMounted, ref } from 'vue';
     const router = useRoute();
     const navbarStore = useNavbarStore();
 
-    onBeforeRouteUpdate(()=>{
-
-    });
 
     onMounted(()=>{
         navbarStore.handleNavbar(true);
