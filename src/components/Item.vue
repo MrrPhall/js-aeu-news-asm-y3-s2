@@ -1,22 +1,8 @@
 <script setup lang="ts">
-import { viewFormater } from '../utils/view';
+    import type { ItemType } from '../utils/type';
+    import { viewFormater } from '../utils/view';
 
-    interface Author {
-        name: string,
-        profile: string,
-    }
-
-    interface Prop {
-        id: number,
-        title: string,
-        category: string,
-        author: Author,
-        date: string,
-        view: number,
-        thumbnail: string,
-    }
-
-    const props = defineProps<Prop>();
+    const props = defineProps<ItemType>();
 
 </script>
 
@@ -25,7 +11,6 @@ import { viewFormater } from '../utils/view';
         name: 'detail',
         params: {
             id: props.id,
-            title: props.title
         }
     }" class="bg-white shadow-md rounded-2xl">
         <div class="w-full md:h-[180px] group overflow-hidden rounded-lg">

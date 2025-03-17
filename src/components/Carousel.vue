@@ -1,14 +1,9 @@
 <script setup lang="ts">
 
-    interface Prop {
-        id: number,
-        title: string,
-        category: string,
-        author: string,
-        date: string,
-        thumbnail: string,
-    }
-    const props = defineProps<Prop>();
+    import type { CarouselType } from '../utils/type';
+
+    const props = defineProps<CarouselType>();
+    
 </script>
 <template>
     <div class="sm:h-[50vh] md:h-screen w-full relative">

@@ -19,7 +19,7 @@ const routes: Array<RouteRecordRaw> = [
                 name: 'category',
             },
             {
-                path: '/detail/:id/:title',
+                path: '/detail/:id',
                 component: Detail,
                 name: 'detail',
             }

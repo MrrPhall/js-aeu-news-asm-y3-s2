@@ -1,13 +1,5 @@
 import { ref } from "vue";
-
-interface CarouselType {
-    id: number,
-    title: string,
-    category: string,
-    author: string,
-    date: string,
-    thumbnail: string,
-}
+import type { CarouselType } from "../utils/type";
 
 const carouselItems = ref<CarouselType[]>([
     {

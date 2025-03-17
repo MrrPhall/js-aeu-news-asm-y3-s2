@@ -1,11 +1,5 @@
 import { ref } from "vue";
-
-interface MainMenuItemType {
-    slug: string,
-    title: string,
-    description: string,
-    thumbnail: string,
-}
+import type { MainMenuItemType } from "../utils/type";
 
 const menuItems = ref<MainMenuItemType[]>([
     {

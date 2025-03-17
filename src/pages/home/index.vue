@@ -5,13 +5,30 @@
     import { Swiper, SwiperSlide } from 'swiper/vue';
     import { Pagination, A11y, Autoplay } from 'swiper/modules';
     import '../../../node_modules/swiper/swiper.css'
-    import '../../../node_modules/swiper/modules/pagination.css'
-    import { ref } from 'vue';
+    import '../../../node_modules/swiper/modules/pagination.css';
+    import { onMounted, ref } from 'vue';
     import items from '../../data/item';
+    import { useNavbarStore } from '../../stores/navbar';
     const modules = ref([Pagination, A11y, Autoplay]);
     const onSlideChange = () => {
         console.log('slide change');
     };
+
+    const navbarStore = useNavbarStore();
+
+    window.addEventListener('scroll', ()=>{
+        if(window.pageYOffset > 80){
+            navbarStore.handleNavbar(true);
+        }else{
+            navbarStore.handleNavbar(false);
+        }
+    });
+
+    onMounted(()=>{
+        navbarStore.handleNavbar(false);
+    });
+
+
 </script>
 
 <template>

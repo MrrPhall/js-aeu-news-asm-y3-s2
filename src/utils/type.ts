@@ -1,0 +1,31 @@
+export interface CarouselType {
+    id: number,
+    title: string,
+    category: string,
+    author: string,
+    date: string,
+    thumbnail: string,
+}
+
+export interface MainMenuItemType {
+    slug: string,
+    title: string,
+    description: string,
+    thumbnail: string,
+}
+
+interface Author {
+    name: string,
+    profile: string,
+}
+
+export interface ItemType {
+    id: number,
+    title: string,
+    category: string,
+    author: Author,
+    date: string,
+    view: number,
+    thumbnail: string,
+    detail?: any,
+}
