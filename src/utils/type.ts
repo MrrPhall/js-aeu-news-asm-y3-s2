@@ -23,7 +23,7 @@ export interface ItemType {
     id: number,
     title: string,
     category: string,
-    category_slug: string,
+    category_slug?: string,
     author: Author,
     date: string,
     view: number,
