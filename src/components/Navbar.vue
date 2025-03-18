@@ -18,6 +18,11 @@ import router from '../routers/router';
         }
     });
 
+    window.addEventListener('resize', ()=>{
+        menuOpen.value = false;
+    });
+
+    const menuOpen = ref<boolean>(false);
     const searchOpen = ref<boolean>(false);
     const search = ref<string>('');
 
@@ -39,9 +44,13 @@ import router from '../routers/router';
         <nav class="w-full h-20 flex items-center justify-center fixed z-[150] top-0 transition-all" :class="navbarStore.isWhite ? 'bg-white shadow-sm' : 'bg-transparent shadow-none'">
             <div class="w-[95%] h-full flex items-center justify-between">
                 <div>
-                    <img class="h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
+                    <RouterLink :to="{
+                        name: 'home'
+                    }">
+                        <img class="h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
+                    </RouterLink>
                 </div>
-                <ul class="flex items-center h-full" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">
+                <ul class="items-center h-full hidden sm:hidden md:flex" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">
                     <li class="mx-2">
                         <RouterLink :to="{
                             name: 'home'
@@ -56,8 +65,9 @@ import router from '../routers/router';
                         }" exact-active-class="text-red-500">{{ item.title }}</RouterLink>
                     </li>
                 </ul>
-                <div @click="searchOpen = true" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">
-                    <Icon class="text-[30px] cursor-pointer" icon="proicons:search"/>
+                <div class="flex items-center gap-2" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">
+                    <Icon @click="menuOpen = true" icon="fluent:list-rtl-20-filled" class="text-[30px] cursor-pointer md:hidden"/>
+                    <Icon @click="searchOpen = true" class="text-[30px] cursor-pointer" icon="proicons:search"/>
                 </div>
             </div>
         </nav>
@@ -75,6 +85,31 @@ import router from '../routers/router';
                     </template>
                 </el-input>
             </el-form>
+        </el-dialog>
+
+        <el-dialog
+            align="center"
+            v-model="menuOpen"
+            fullscreen
+            style="background-color: rgba(0, 0, 0, 0.5);"
+            align-center
+            
+        >
+          <ul class="flex items-center justify-center flex-col gap-2 text-[25px] text-white">
+            <li @click="menuOpen = false" class="mx-2">
+                <RouterLink :to="{
+                    name: 'home'
+                }" exact-active-class="text-red-500">ទំព័រដើម</RouterLink>
+            </li>
+            <li @click="menuOpen = false" class="mx-2" v-for="item in menuItems" :key="item.title">
+                <RouterLink :to="{
+                    name: 'category',
+                    params: {
+                        id: item.slug
+                    }
+                }" exact-active-class="text-red-500">{{ item.title }}</RouterLink>
+            </li>
+          </ul>
         </el-dialog>
     </div>
    

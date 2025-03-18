@@ -72,6 +72,65 @@ const items = ref<ItemType[]>([
                 </div>
                 </div>`
     },
+    {
+        id: 2,
+        title: 'សកលវិទ្យាល័យធំ១ នៅអាមេរិក ត្រៀមកាត់បុគ្គលិ.ករាប់ពា.ន់នាក់ ព្រោះមូលហេតុទាំងនេះ',
+        category: 'ចាប់ផ្ដើមអាជីវកម្ម',
+        category_slug: 'business',
+        author: {
+            name: 'Bunthoeun Koem',
+            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
+        },
+        date: 'MARCH 13 2025',
+        view: 255,
+        thumbnail: 'https://business-cambodia.com/cms/assets/639d1955-28e4-4a9a-823c-d9e8e0903f65',
+        detail: `<div id="part_1_container">
+            <div id="part-1" class="article_body">
+            <div id="part_1_container">
+            <div id="part-1" class="article_body">
+            <p>សកលវិទ្យាល័យ Johns Hopkins ដែលជាសកលវិទ្យាល័យធំ១ នៅអាមេរិកគ្រោងកាត់បុគ្គលិករហូតដល់ទៅ ២ពាន់នាក់ បន្ទាប់ពីរដ្ឋាភិបាលអាមេរិក Donald Trump បានសម្រេចកាត់បន្ថយជំនួយរហូតដល់ទៅ ៨០០លានដុល្លារដល់ស្ថាប័នសិក្សាដ៏ល្បីល្បាញនេះ។ នេះបើតាមការដកស្រង់ចេញពីសារព៏ត៌មាន CNBC ។</p>
+            </div>
+            <div id="gax-inpage-async-1706848424"></div>
+            <div id="type_paragraph-1" class="w-full bg-gray-300 rounded-md">
+            <div><a id="body_ads_0_0_1" href="https://www.oppo.com/kh/smartphones/series-a/a5-pro/" target="_blank" rel="noopener"><img id="oppo-reno-13" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/842147c1-55aa-43eb-9809-fc8c48ed9050" alt="" loading="lazy"></a></div>
+            </div>
+            </div>
+            <div id="gax-inpage-async-1700708404"></div>
+            <div id="part_2_container">
+            <div id="part-2" class="article_body">
+            <p>&nbsp;</p>
+            </div>
+            <ins data-revive-zoneid="3" data-revive-id="f2f0ae7230ea5866b99b115aa1e4ce80"></ins><ins class="flex justify-center" data-revive-zoneid="124" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins>
+            <div id="type_paragraph-2" class="w-full bg-gray-300 rounded-md"></div>
+            </div>
+            <div id="part_3_container">
+            <div id="part-3" class="article_body">
+            <p>ប្រភពខាងលើបានបន្តឱ្យដឹងទៀតថា សកលវិទ្យាល័យ Johns Hopkins គឺជាសកលវិទ្យាល័យស្រាវជ្រាវវិទ្យាសាស្រ្តដ៏សំខាន់និងល្បីល្បាញបំផុតមួយនៅសហរដ្ឋអាមេរិក ខណៈសកលវិទ្យាល័យនេះបានធ្វើការស្រាវជ្រាវជាមួយសកលវិទ្យាល័យផ្សេងដែលនៅលើបណ្តាប្រទេសជាង ៤០នៅលើពិភពលោក។</p>
+            </div>
+            <div id="gax-inpage-async-1700708881"></div>
+            <div id="type_paragraph-3" class="w-full bg-gray-300 rounded-md"></div>
+            </div>
+            <div id="part_4_container">
+            <div id="part-4" class="article_body">
+            <p><img src="https://business-cambodia.com/cms/assets/551e22ce-57f1-469e-8274-e7e01a2e727f?width=1200&amp;height=630" alt="២៦"></p>
+            </div>
+            <div id="gax-inpage-async-1700708647"></div>
+            </div>
+            <div id="part_5_container">
+            <div id="part-5" class="article_body">
+            <p>សម្រាប់អ្នកដែលបាន បាត់បង់ការងារដោយសារការកាត់បន្ថយការផ្តល់ជំនួយនាពេលថ្មីៗនេះ នឹងត្រូវផ្តល់ជូនដំណឹងជាមុនចំនួន ៦០ថ្ងៃ មុនពេលពួកគេត្រូវបានបញ្ឈប់ពីការងារ។ បើតាមសេចក្តីថ្លែងការណ៍របស់សកលវិទ្យាល័យ Johns Hopkins ក៏បានឱ្យដឹងដែរថា នេះគឺជាថ្ងៃដ៏លំបាកបំផុតសម្រាប់យើងព្រោះការបញ្ចប់ផ្តល់មូលនិធិជាង ៨០០លានដុល្លាររបស់ USAID ឥឡូវនេះកំពុងបង្ខំឱ្យយើងបញ្ឈប់ការងារបុគ្គលិកផងដែរ។</p>
+            </div>
+            <ins class="flex justify-center" data-revive-zoneid="85" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins></div>
+            <div id="the_rest_container">
+            <div id="gax-inpage-async-1726803621"></div>
+            <div id="the-rest" class="article_body">
+            <p>&nbsp;</p>
+            <p>យ៉ាងណាមិញ ក្រៅពីកាត់បន្ថយជំនួយដល់សកលវិទ្យាល័យ Johns Hopkins ចំនួន ៨០០លានដុល្លារ កាលពីកន្លងទៅរដ្ឋាភិបាលអាមេរិកក៏បានកាត់បន្ថយជំនួយទឹកប្រាក់ចំនួន ៤០០លានដុល្លារដល់សកលវិទ្យាល័យ Columbia នៃទីក្រុងញ៉ូយកផងដែរ៕</p>
+            </div>
+            </div>
+            </div>
+            </div>`
+    },
     
 ]);
 
