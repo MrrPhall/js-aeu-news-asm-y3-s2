@@ -4,121 +4,75 @@ import type { ItemType } from "../utils/type";
 const items = ref<ItemType[]>([
     {
         id: 1,
-        title: 'អ្នកឧកញ៉ា សួរ វីរៈ បង្ហាញគម្រោងតំបន់ទេសចរណ៍ថ្មីមួយទៀត ខណៈត្រៀមបើកចុងឆ្នាំនេះ',
+        title: 'ចំណងមិត្តភាពកម្ពុជា-ចិនស្ថិតស្ថេរអមតៈ ចាប់ដៃគ្នាកសាងសហគមន៍វាសនារួម',
         category: 'ពត៌មានថ្មីៗ',
+        category_slug: 'news',
         author: {
             name: 'Bunthoeun Koem',
             profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
         },
         date: 'MARCH 13 2025',
         view: 4174,
-        thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
-        detail: `<div>
-            <div class="flex flex-col justify-center lg:px-36 text-black my-3 object-cover bg-center bg-no-repeat bg-cover">
-            <div class="text-2xl lg:text-4xl font-semibold article-title px-4 md:px-0">ខេត្ដសំណាង! ក្រុមហ៊ុនចិនបោះទុន​ ២៧៣​ លានដុល្លារសង់រោងចក្រលើដី​​ ២១ ហិកតានៅខេត្ដមួយនេះ</div>
-            <div class="flex justify-center sm:justify-start text-xs lg:text-sm font-light text-gray-500"><a class="" href="https://business-cambodia.com/authors/7b05e5df-65a6-48eb-aa0f-420b2417c6f3">Bunthoeun Koem</a><span class="mx-2">&bull;</span>MARCH 2 2025<span class="mx-2">&bull;</span>54.8 K views</div>
-            </div>
-            </div>
-            <div id="article-body" class="grid grid-cols-1 lg:grid-cols-left_expand gap-x-6 px-4 lg:px-36 text-lg md:text-xl font-light">
-            <div>
-            <div id="type_under-title" class="w-full pb-2 rounded-md">
-            <div><a id="under_article_0_0" href="https://bakseyacademy.com/" target="_blank" rel="noopener"><img id="ba-ads" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/86b74977-4e3b-4ec1-9249-6af7f5dee4b4" alt="" loading="lazy"></a></div>
-            </div>
-            <div id="article_thumbnail" class="mb-6"><img src="https://business-cambodia.com/cms/assets/bbacb53a-2f36-4e61-b4e0-9a3cd208f067" srcset="" alt=""></div>
-            <div class="body_content pt-2">
-            <div id="part_1_container">
-            <div id="part-1" class="article_body">
-            <p>នៅថ្ងៃទី២ ខែមីនា ឆ្នាំ២០២៤ ក្រុមហ៊ុន​ Nex Healthcare Co., Ltd. ដែលវិនិយោគផលិតស្រោមដៃ (PVC &amp; Rubber) និងឧបករណ៍បរិក្ខារពេទ្យ​ បានបើកការដ្ឋានសាងសង់រោងចក្ររបស់ខ្លួនដែលមានទីតាំងស្ថិតក្នុងតំបន់សេដ្ឋកិច្ចពិសេស ឈីលូ ខេត្តស្វាយរៀង​ លើផ្ទៃដី​ទំហំ​ ២១ ហិកតា ដែលមានទុនវិនិយោគ​ប្រមាណ​ ២៧៣​ លានដុល្លារអាមេរិក​។</p>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>`
+        thumbnail: 'https://business-cambodia.com/cms/assets/3b8db92d-9b70-4029-92b9-83eb1aa3ad52',
+        detail: `<div id="part_1_container">
+                <div id="part-1" class="article_body">
+                <p>ប្រទេសកម្ពុជានិងប្រទេសចិនត្រូវបានតភ្ជាប់ដោយភ្នំនិងទន្លេ ហើយមានមិត្តភាពដ៏ជ្រាលជ្រៅនិងយូរអង្វែង។ កន្លងមកក្រោមការដឹកនាំជាយុទ្ធសាស្ត្ររបស់ថ្នាក់ដឹកនាំនៃប្រទេសកម្ពុជានិងចិន ទំនាក់ទំនងភាពជាដៃគូយុទ្ធសាស្ត្រគ្រប់ជ្រុងជ្រោយរវាងប្រទេសទាំងពីរបានបន្តអភិវឌ្ឍយ៉ាងស៊ីជម្រៅ សម្រេចបានសមិទ្ធផលជាផ្លែផ្កាដ៏អស្ចារ្យក្នុងកិច្ចសហប្រតិបត្តិការគ្រប់វិស័យ ហើយបាននាំមកនូវផលប្រយោជន៍ជាក់ស្តែងដល់ប្រជាជន និងចូលរួមចំណែកយ៉ាងសំខាន់ក្នុងការថែរក្សាសន្តិភាពនិងវិបុលភាពក្នុងតំបន់។</p>
+                </div>
+                <div id="gax-inpage-async-1706848424"></div>
+                <div id="type_paragraph-1" class="w-full bg-gray-300 rounded-md">
+                <div><a id="body_ads_0_0_1" href="https://www.oppo.com/kh/smartphones/series-a/a5-pro/" target="_blank" rel="noopener"><img id="oppo-reno-13" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/842147c1-55aa-43eb-9809-fc8c48ed9050" alt="" loading="lazy"></a></div>
+                </div>
+                </div>
+                <div id="gax-inpage-async-1700708404"></div>
+                <div id="part_2_container">
+                <div id="part-2" class="article_body">
+                <p>&nbsp;</p>
+                </div>
+                <ins id="revive-1-0" data-revive-zoneid="3" data-revive-id="f2f0ae7230ea5866b99b115aa1e4ce80" data-revive-seq="0" data-revive-loaded="1">
+                <div id="beacon_9c522fb05f"><img src="https://ad.health.com.kh/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=3&amp;loc=https%3A%2F%2Fbusiness-cambodia.com%2Farticles%2Fchina-and-khmer&amp;referer=https%3A%2F%2Fbusiness-cambodia.com%2F&amp;cb=9c522fb05f" alt="" width="0" height="0"></div>
+                </ins><ins id="revive-0-1" class="flex justify-center" data-revive-zoneid="124" data-revive-id="2d10743d9880200bf17a894cfa35dba0" data-revive-seq="1" data-revive-loaded="1">
+                <div id="beacon_c668a52717"><img src="https://adservermsa.gpas.co/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=124&amp;loc=https%3A%2F%2Fbusiness-cambodia.com%2Farticles%2Fchina-and-khmer&amp;referer=https%3A%2F%2Fbusiness-cambodia.com%2F&amp;cb=c668a52717" alt="" width="0" height="0"></div>
+                </ins>
+                <div id="type_paragraph-2" class="w-full bg-gray-300 rounded-md"></div>
+                </div>
+                <div id="part_3_container">
+                <div id="part-3" class="article_body">
+                <p>នៅថ្ងៃទី៥ ខែមីនា ពិធីសម្ពោធគម្រោង"កែលម្អកម្រិតអប់រំ សុខភាព អាហារូបត្ថម្ភ និងទឹកស្អាត ស្ថានភាពអនាម័យសម្រាប់កុមារក្នុងសហគមន៍ក្រីក្របំផុតនៅកម្ពុជា" ក្រោមមូលនិធិអភិវឌ្ឍសកលនិងកិច្ចសហប្រតិបត្តិការត្បូង-ត្បូងចិន បានរៀបចំនៅរាជធានីភ្នំពេញ។ គម្រោងនេះបានគាំទ្រដោយមូលនិធិអភិវឌ្ឍសកលនិងកិច្ចសហប្រតិបត្តិការត្បូង-ត្បូងចិន&nbsp;&nbsp;&nbsp; ក្នុងគោលបំណងលើកកម្ពស់កម្រិតអប់រំនិងសុខភាពរបស់កុមារក្នុងសហគមន៍ក្រីក្របំផុតនៅកម្ពុជា។</p>
+                </div>
+                <div id="gax-inpage-async-1700708881"></div>
+                <div id="type_paragraph-3" class="w-full bg-gray-300 rounded-md"></div>
+                </div>
+                <div id="part_4_container">
+                <div id="part-4" class="article_body">
+                <p>&nbsp;</p>
+                </div>
+                <div id="gax-inpage-async-1700708647"></div>
+                </div>
+                <div id="part_5_container">
+                <div id="part-5" class="article_body">
+                <p>លោកវ៉ាង វេនប៊ីន Wang wenbin ឯកអគ្គរដ្ឋទូតចិនប្រចាំកម្ពុជា&nbsp; ឯកឧត្តមសាស្រ្តាចារ្យ ឈាង រ៉ា រដ្ឋមន្រ្តីក្រសួងសុខាភិបាលកម្ពុជា និងលោក Will Parks តំណាងអង្គការយូនីសេហ្វកម្ពុជាបានអញ្ជើញចូលរួមក្នុងពិធីសម្ពោធនេះ។ លោកវ៉ាង វេនប៊ីនបានអះអាងថា ចិននឹងបន្តគាំទ្រការអភិវឌ្ឍសង្គមកម្ពុជា ជាពិសេសការថែរក្សាសុខុមាលភាពកុមារ។ លោកបានបញ្ជាក់ថា មូលនិធិនេះបានអនុវត្តគម្រោងជាង១៦០ក្នុង៦០ប្រទេស បានអំណោយផលដល់ប្រជាជនជាង៣០លាននាក់។ ប្រទេសចិនរីករាយសហការជាមួយប្រទេសកម្ពុជានិងអង្គការអន្តរជាតិពាក់ព័ន្ធនានាបន្តគាំទ្រដល់ការអប់រំនិងសុខភាពរបស់កុមារក្នុងសហគមន៍ក្រីក្របំផុតនៅកម្ពុជាក្រោមជំនួយពីមូលនិធីនេះ។</p>
+                </div>
+                <ins id="revive-0-2" class="flex justify-center" data-revive-zoneid="85" data-revive-id="2d10743d9880200bf17a894cfa35dba0" data-revive-seq="2" data-revive-loaded="1">
+                <div id="beacon_66d2f13cbd"><img src="https://adservermsa.gpas.co/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=85&amp;loc=https%3A%2F%2Fbusiness-cambodia.com%2Farticles%2Fchina-and-khmer&amp;referer=https%3A%2F%2Fbusiness-cambodia.com%2F&amp;cb=66d2f13cbd" alt="" width="0" height="0"></div>
+                </ins></div>
+                <div id="the_rest_container">
+                <div id="gax-inpage-async-1726803621"></div>
+                <div id="the-rest" class="article_body">
+                <p>ក្រៅពីនេះ &nbsp;កិច្ចសហប្រតិបត្តិការក្នុងវិស័យវប្បធម៌ អប់រំ ទេសចរណ៍រវាងប្រទេសកម្ពុជានិងចិនក៏មានការរីកចម្រើនយ៉ាងឆាប់រហ័សដែរ ដែលបានដើរតួនាទីសំខាន់ក្នុងការបង្កើនការយោគយល់គ្នា&nbsp; និងជំរុញដល់ចំណងមិត្តភាពរវាងប្រជាជនប្រទេសទាំងពីរ។</p>
+                <p>&nbsp;</p>
+                <p>ប្រទេសចិនបានបង្កើតវិទ្យាស្ថានខុងជឺច្រើនសាខានៅកម្ពុជា ដើម្បីផ្តល់ភាពងាយស្រួលដល់ប្រជាជនកម្ពុជា ក្នុងការរៀនភាសាចិននិងយល់ពីវប្បធម៌ចិន។ និស្សិតខ្មែរទៅសិក្សានៅប្រទេសចិនមានចំនួនកើនឡើងជាលំដាប់ ពួកគេបានក្លាយជាស្ពានសម្រាប់តភ្ជាប់មិត្តភាពរវាងកម្ពុជានិងចិន។ កិច្ចសហប្រតិបត្តិការក្នុងវិស័យទេសចរណ៍ក៏មានការអភិវឌ្ឍយ៉ាងលឿនដែរ ដោយប្រទេសចិនបានក្លាយជាប្រភពទេសចរធំបំផុតរបស់កម្ពុជា។</p>
+                <p>&nbsp;</p>
+                <p>កិច្ចសហប្រតិបត្តិការរវាងប្រទេសទាំងពីរកម្ពុជា-ចិនបានគ្របដណ្តប់លើគ្រប់វិស័យ ដូចជា សេដ្ឋកិច្ច វប្បធម៌ អប់រំ កសិកម្ម សុខភាព និងវិស័យផ្សេងៗទៀត&nbsp; នេះសបញ្ជាក់ថា&nbsp; ទំនាក់ទំនងភាពជាដៃគូយុទ្ធសាស្ត្រគ្រប់ជ្រុងជ្រោយរវាងប្រទេសទាំងពីរបានអភិវឌ្ឍប្រកបដោយកម្រិតខ្ពស់។ គម្រោងសហប្រតិបត្តិការទាំងនេះមិនគ្រាន់តែផ្តល់ការគាំទ្រយ៉ាងម៉ឺងម៉ាត់ដល់ការអភិវឌ្ឍសង្គមនិងសេដ្ឋកិច្ចកម្ពុជា ថែមទាំងបានពង្រឹងចំណងមិត្តភាពជាប្រពៃណីរវាងប្រទេសទាំងពីរ និងបោះគ្រឹះយ៉ាងរឹងមាំដល់ការកសាងសហគមន៍វាសនារួមរវាងកម្ពុជានិងចិនទៀតផង។</p>
+                <p>&nbsp;</p>
+                <p>បច្ចុប្បន្ននេះ ពិភពលោកកំពុងឆ្លងកាត់ការផ្លាស់ប្តូរដ៏ធំដែលមិនធ្លាប់មានក្នុងរយៈពេលមួយសតវត្ស ហើយកំពុងឈានចូលក្នុងដំណាក់កាលថ្មីដែលមានភាពរង្គោះរង្គើនិងការផ្លាស់ប្តូរដ៏ខ្លាំង។ ប្រទេសចិននិងប្រទេសកម្ពុជាដែលជាអ្នកជិតខាងល្អនិងជាដៃគូយុទ្ធសាស្ត្រគ្រប់ជ្រុងជ្រោយ&nbsp; គួរតែកៀកស្មាគ្នាដើម្បីប្រឈមមុខនឹងបញ្ហាប្រឈម រួមគ្នាកសាងអនាគតដ៏ភ្លឺស្វាង។</p>
+                <p>&nbsp;</p>
+                <p>ប្រទេសចិននឹងបន្តប្រកាន់ខ្ជាប់នូវគោលគំនិតការទូតដែលប្រកបដោយ "មិត្តភាព ភាពស្មោះត្រង់ ផលប្រយោជន៍ទៅវិញទៅមក និងបរិយាបន្ន" ធ្វើឱ្យកាន់តែស៊ីជម្រៅនូវការជឿទុកចិត្តគ្នាក្នុងនយោបាយ ពង្រឹងការបន្ស៊ីគ្នានៃយុទ្ធសាស្ត្រអភិវឌ្ឍ ជំរុញដល់កិច្ចសហប្រតិបត្តិការជាក់ស្តែងក្នុងគ្រប់វិស័យនានា&nbsp; ជំរុញឱ្យការកសាងសហគមន៍វាសនារួមរវាងកម្ពុជានិងចិនកាន់តែស៊ីជម្រៅទៀត ហើយនាំមកនូវផលប្រយោជន៍កាន់តែច្រើនដល់ប្រជាជននៃប្រទេសទាំងពីរ ព្រមទាំងចូលរួមចំណែកកាន់តែធំដល់សន្តិភាព ស្ថិរភាព និងវិបុលភាពក្នុងតំបន់។</p>
+                <p>&nbsp;</p>
+                <p>កិច្ចសហប្រតិបត្តិការរវាងកម្ពុជានិងចិនស្ថិតស្ថេរអមតៈ ដែលមានសក្តានុពលដ៏ទូលំទូលាយ។&nbsp; យើងជឿងជាក់ថា ជាមួយនឹងការដឹកនាំជាយុទ្ធសាស្ត្ររបស់ថ្នាក់ដឹកនាំប្រទេសទាំងពីរ និងការខិតខំប្រឹងប្រែងរបស់ប្រជាជន ទំនាក់ទំនងភាពជាដៃគូយុទ្ធសាស្ត្រគ្រប់ជ្រុងជ្រោយកម្ពុជា-ចិនមុខជានឹងឈានដល់កម្រិតថ្មី ហើយការកសាងសហគមន៍វាសនារួមកម្ពុជា-ចិន មុខជានឹងសម្រេចនូវលទ្ធផលជាផ្លែផ្កាកាន់តែច្រើន &nbsp;និងរួមចំណែកដ៏ធំនិងថ្មីក្នុងការកសាងសហគមន៍វាសនារួមរបស់មនុស្សជាតិជាក់ជាមិនខាន!</p>
+                </div>
+                </div>`
     },
-    {
-        id: 2,
-        title: 'ខេត្ដសំណាង! ក្រុមហ៊ុនចិនបោះទុន​ ២៧៣​ លានដុល្លារសង់រោងចក្រលើដី​​ ២១ ហិកតានៅខេត្ដមួយនេះ',
-        category: 'អចលនទ្រទ្យ',
-        author: {
-            name: 'Bunthoeun Koem',
-            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
-        },
-        date: 'MARCH 2 2025',
-        view: 1200000,
-        thumbnail: 'https://business-cambodia.com/cms/assets/bbacb53a-2f36-4e61-b4e0-9a3cd208f067',
-    },
-    {
-        id: 3,
-        title: 'ល្អណាស់! ក្រសួងឧស្សាហកម្ម និងក្រុមហ៊ុន ស៊ីភី ជួបគ្នាដើម្បីបង្កើនការដាក់លក់ផលិតផលខ្មែរក្នុង 7-Eleven',
-        category: 'ចាប់ផ្ដើមអាជិវកម្ម',
-        author: {
-            name: 'ធី ស្រីល័ក្ខ',
-            profile: 'https://business-cambodia.com/cms/assets/a0a4c4f4-d307-48e0-8262-0634a9319588',
-        },
-        date: 'MARCH 13 2025',
-        view: 1,
-        thumbnail: 'https://business-cambodia.com/cms/assets/2a468faa-ad5d-45e2-b35a-91df6a6ff25a',
-    },
-    {
-        id: 1,
-        title: 'អ្នកឧកញ៉ា សួរ វីរៈ បង្ហាញគម្រោងតំបន់ទេសចរណ៍ថ្មីមួយទៀត ខណៈត្រៀមបើកចុងឆ្នាំនេះ',
-        category: 'ពត៌មានថ្មីៗ',
-        author: {
-            name: 'Bunthoeun Koem',
-            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
-        },
-        date: 'MARCH 13 2025',
-        view: 232324,
-        thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
-    },
-    {
-        id: 1,
-        title: 'អ្នកឧកញ៉ា សួរ វីរៈ បង្ហាញគម្រោងតំបន់ទេសចរណ៍ថ្មីមួយទៀត ខណៈត្រៀមបើកចុងឆ្នាំនេះ',
-        category: 'ពត៌មានថ្មីៗ',
-        author: {
-            name: 'Bunthoeun Koem',
-            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
-        },
-        date: 'MARCH 13 2025',
-        view: 68876544342,
-        thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
-    },
-    {
-        id: 1,
-        title: 'អ្នកឧកញ៉ា សួរ វីរៈ បង្ហាញគម្រោងតំបន់ទេសចរណ៍ថ្មីមួយទៀត ខណៈត្រៀមបើកចុងឆ្នាំនេះ',
-        category: 'ពត៌មានថ្មីៗ',
-        author: {
-            name: 'Bunthoeun Koem',
-            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
-        },
-        date: 'MARCH 13 2025',
-        view: 57654,
-        thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
-    },
-    {
-        id: 1,
-        title: 'អ្នកឧកញ៉ា សួរ វីរៈ បង្ហាញគម្រោងតំបន់ទេសចរណ៍ថ្មីមួយទៀត ខណៈត្រៀមបើកចុងឆ្នាំនេះ',
-        category: 'ពត៌មានថ្មីៗ',
-        author: {
-            name: 'Bunthoeun Koem',
-            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
-        },
-        date: 'MARCH 13 2025',
-        view: 643246311,
-        thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
-    },
-    {
-        id: 1,
-        title: 'អ្នកឧកញ៉ា សួរ វីរៈ បង្ហាញគម្រោងតំបន់ទេសចរណ៍ថ្មីមួយទៀត ខណៈត្រៀមបើកចុងឆ្នាំនេះ',
-        category: 'ពត៌មានថ្មីៗ',
-        author: {
-            name: 'Bunthoeun Koem',
-            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
-        },
-        date: 'MARCH 13 2025',
-        view: 76534,
-        thumbnail: 'https://business-cambodia.com/cms/assets/0d97cfeb-cc92-4dc9-a224-44c3ac67fb79',
-    }
+    
 ]);
 
 export default items;

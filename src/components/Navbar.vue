@@ -36,7 +36,7 @@ import router from '../routers/router';
 </script>
 <template>
     <div>
-        <nav class="w-full h-20 flex items-center justify-center fixed z-5 top-0 transition-all" :class="navbarStore.isWhite ? 'bg-white shadow-sm' : 'bg-transparent shadow-none'">
+        <nav class="w-full h-20 flex items-center justify-center fixed z-[150] top-0 transition-all" :class="navbarStore.isWhite ? 'bg-white shadow-sm' : 'bg-transparent shadow-none'">
             <div class="w-[95%] h-full flex items-center justify-between">
                 <div>
                     <img class="h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
