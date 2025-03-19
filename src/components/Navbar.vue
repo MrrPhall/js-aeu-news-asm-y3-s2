@@ -2,8 +2,8 @@
     import { Icon } from '@iconify/vue';
     import menuItems  from '../data/menu';
     import { useNavbarStore } from '../stores/navbar';
-import { ref } from 'vue';
-import router from '../routers/router';
+    import { ref } from 'vue';
+    import router from '../routers/router';
 
     const navbarStore = useNavbarStore();
     window.addEventListener('scroll', ()=>{
@@ -41,13 +41,13 @@ import router from '../routers/router';
 </script>
 <template>
     <div>
-        <nav class="w-full h-20 flex items-center justify-center fixed z-[150] top-0 transition-all" :class="navbarStore.isWhite ? 'bg-white shadow-sm' : 'bg-transparent shadow-none'">
+        <nav class="w-full h-16 sm:h-16 md:h-20 flex items-center justify-center fixed z-[150] top-0 transition-all" :class="navbarStore.isWhite ? 'bg-white shadow-sm' : 'bg-transparent shadow-none'">
             <div class="w-[95%] h-full flex items-center justify-between">
                 <div>
                     <RouterLink :to="{
                         name: 'home'
                     }">
-                        <img class="h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
+                        <img class="w-full h-10 sm:h-10 md:h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
                     </RouterLink>
                 </div>
                 <ul class="items-center h-full hidden sm:hidden md:flex" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">

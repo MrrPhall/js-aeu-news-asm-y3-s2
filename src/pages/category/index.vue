@@ -42,7 +42,7 @@ import menuItems from '../../data/menu';
 </script>
 
 <template>
-    <div class="h-screen">
+    <div>
         <div class="relative z-[100]">
             <img :src="category?.thumbnail" class="h-[350px] w-full object-cover" alt="Thumbnail">
             <div class="h-full w-full absolute top-0 bg-black opacity-50"></div>
