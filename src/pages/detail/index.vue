@@ -28,7 +28,7 @@
 </script>
 
 <template>
-     <div class="h-screen w-[95%] mx-auto z-[-1]" v-loading="loading">
+     <div class="min-h-screen w-[95%] mx-auto z-[-1]" v-loading="loading">
         <div class="h-20"></div>
         <div class="w-full flex items-start justify-between mt-2" v-show="!loading">
             <div class="w-full sm:w-full md:w-[60%]">
