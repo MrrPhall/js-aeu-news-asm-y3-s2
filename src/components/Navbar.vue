@@ -47,7 +47,7 @@
                     <RouterLink :to="{
                         name: 'home'
                     }">
-                        <img class="w-full h-10 sm:h-10 md:h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
+                        <img class="h-10 sm:h-10 md:h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
                     </RouterLink>
                 </div>
                 <ul class="items-center h-full hidden sm:hidden md:flex" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">
