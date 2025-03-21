@@ -4,6 +4,7 @@ import Home from "../pages/home/index.vue";
 import Category from "../pages/category/index.vue";
 import Detail from "../pages/detail/index.vue";
 import Search from "../pages/search/index.vue";
+import About from "../pages/about/index.vue";
 const routes: Array<RouteRecordRaw> = [
     {
         path: '/',
@@ -28,7 +29,12 @@ const routes: Array<RouteRecordRaw> = [
                 path: '/search',
                 component: Search,
                 name: 'search',
-            }
+            },
+            {
+                path: '/about',
+                component: About,
+                name: 'about',
+            },
         ],
     }
 ];

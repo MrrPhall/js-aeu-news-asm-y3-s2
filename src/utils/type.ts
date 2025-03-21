@@ -30,3 +30,9 @@ export interface ItemType {
     thumbnail: string,
     detail?: any,
 }
+
+export interface ProfileType {
+    id?: number,
+    name?: string,
+    profile?: string,
+}

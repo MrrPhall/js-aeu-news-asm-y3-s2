@@ -11,7 +11,7 @@ import menuItems from '../data/menu';
                 <h1 class="text-[18px] font-bold text-center md:text-left">ស្វែងយល់អំពីពួកយើង</h1>
                 <h3 class="text-[16px] font-bold mt-[40px]">
                     <RouterLink :to="{
-                        name: 'home'
+                        name: 'about'
                     }">
                         អំពីពួកយើង
                     </RouterLink>

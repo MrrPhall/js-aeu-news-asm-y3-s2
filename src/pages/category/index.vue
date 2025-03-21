@@ -42,7 +42,7 @@ import menuItems from '../../data/menu';
 </script>
 
 <template>
-    <div>
+    <div class="min-h-screen">
         <div class="relative z-[100]">
             <img :src="category?.thumbnail" class="h-[350px] w-full object-cover" alt="Thumbnail">
             <div class="h-full w-full absolute top-0 bg-black opacity-50"></div>
@@ -62,7 +62,7 @@ import menuItems from '../../data/menu';
                 :thumbnail="item.thumbnail"
             />
         </div>
-        <div v-if="itemFilterByCategory.length === 0" v-show="!loading" class="h-screen w-full flex items-center justify-center text-gray-500 absolute top-0">
+        <div v-if="itemFilterByCategory.length == 0" v-show="!loading" class="h-screen w-full flex items-center justify-center text-gray-500 absolute top-0">
             មិនមានទិន្នន័យ
         </div>
     </div>

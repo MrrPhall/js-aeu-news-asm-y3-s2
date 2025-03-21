@@ -1,0 +1,32 @@
+import { ref } from "vue";
+import type { ProfileType } from "../utils/type";
+
+const profiles = ref<ProfileType[]>([
+    {
+        id: 545444,
+        name: 'ពិន ផល្លី-Pin Phally',
+        profile: '../../images/profiles/phally.jpg',
+    },
+    {
+        id: 342342,
+        name: 'ពេជ្រ ច័ន្ទរស្មី-Pech ChanReakSmey',
+        profile: '../../images/profiles/reaksmey.jpg',
+    },
+    {
+        id: 63827,
+        name: 'នូ សុវណ្ណារ៉ូត-Nou Sovannarout',
+        profile: '../../images/profiles/b-rout.jpg',
+    },
+    {
+        id: 65577,
+        name: 'អ៊ឹម ផល-Eom Phal',
+        profile: '../../images/profiles/phall.jpg',
+    },
+    {
+        id: 62191,
+        name: 'វិន សុខមេង-Vin Sokmeng',
+        profile: '../../images/profiles/meng.jpg',
+    },
+]);
+
+export default profiles;
