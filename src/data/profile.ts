@@ -3,12 +3,12 @@ import type { ProfileType } from "../utils/type";
 
 const profiles = ref<ProfileType[]>([
     {
-        id: 545444,
+        id: 63568,
         name: 'ពិន ផល្លី-Pin Phally',
         profile: '../../images/profiles/phally.jpg',
     },
     {
-        id: 342342,
+        id: 62456,
         name: 'ពេជ្រ ច័ន្ទរស្មី-Pech ChanReakSmey',
         profile: '../../images/profiles/reaksmey.jpg',
     },
