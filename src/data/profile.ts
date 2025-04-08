@@ -27,6 +27,11 @@ const profiles = ref<ProfileType[]>([
         name: 'វិន សុខមេង-Vin Sokmeng',
         profile: '../../images/profiles/meng.jpg',
     },
+    {
+        id: 62191,
+        name: 'យ៉ុន មួន សុធារិទ្ធ-Youn Moun Sothearith',
+        profile: '../../images/profiles/thearith.jpg',
+    },
 ]);
 
 export default profiles;

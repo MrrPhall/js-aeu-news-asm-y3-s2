@@ -5,15 +5,15 @@ import menuItems from '../data/menu';
 </script>
 
 <template>
-    <footer class="w-full flex items-center justify-center flex-col mt-5 bg-red-700">
+    <footer class="w-full flex items-center justify-center flex-col mt-5 bg-[#0a1b3d]">
         <div class="w-[95%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white my-10">
             <div class="flex justify-start flex-col">
                 <h1 class="text-[18px] font-bold text-center md:text-left">ស្វែងយល់អំពីពួកយើង</h1>
                 <h3 class="text-[16px] font-bold mt-[40px]">
                     <RouterLink :to="{
                         name: 'about'
-                    }">
-                        អំពីពួកយើង
+                    }" class="flex items-center">
+                       <Icon class="text-[23px] animate-bounce" icon="fluent:hand-draw-20-regular"/> អំពីពួកយើង
                     </RouterLink>
                 </h3>
                 <div class="flex items-center gap-2 mt-3">

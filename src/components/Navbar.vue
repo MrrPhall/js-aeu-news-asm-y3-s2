@@ -4,6 +4,7 @@
     import { useNavbarStore } from '../stores/navbar';
     import { ref } from 'vue';
     import router from '../routers/router';
+    import logo from '../../public/images/logo/logo.png';
 
     const navbarStore = useNavbarStore();
     window.addEventListener('scroll', ()=>{
@@ -41,16 +42,16 @@
 </script>
 <template>
     <div>
-        <nav class="w-full h-16 sm:h-16 md:h-20 flex items-center justify-center fixed z-[150] top-0 transition-all" :class="navbarStore.isWhite ? 'bg-white shadow-sm' : 'bg-transparent shadow-none'">
+        <nav class="w-full h-16 sm:h-16 md:h-20 flex items-center justify-center fixed z-[150] top-0 transition-all" :class="navbarStore.isWhite ? 'bg-[#0a1b3d] shadow-sm' : 'bg-transparent shadow-none'">
             <div class="w-[95%] h-full flex items-center justify-between">
                 <div>
                     <RouterLink :to="{
                         name: 'home'
                     }">
-                        <img class="h-10 sm:h-10 md:h-16" src="https://business-cambodia.com/static/BC.png" alt="Logo">
+                        <img class="h-10 sm:h-10 md:h-16" :src="logo" alt="Logo">
                     </RouterLink>
                 </div>
-                <ul class="items-center h-full hidden sm:hidden md:flex" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">
+                <ul class="items-center h-full hidden sm:hidden md:flex" :class="navbarStore.isWhite ? 'text-white' : 'text-white'">
                     <li class="mx-2">
                         <RouterLink :to="{
                             name: 'home'
@@ -65,7 +66,7 @@
                         }" exact-active-class="text-red-500">{{ item.title }}</RouterLink>
                     </li>
                 </ul>
-                <div class="flex items-center gap-2" :class="navbarStore.isWhite ? 'text-gray-500' : 'text-white'">
+                <div class="flex items-center gap-2" :class="navbarStore.isWhite ? 'text-white' : 'text-white'">
                     <Icon @click="menuOpen = true" icon="fluent:list-rtl-20-filled" class="text-[30px] cursor-pointer md:hidden"/>
                     <Icon @click="searchOpen = true" class="text-[30px] cursor-pointer" icon="proicons:search"/>
                 </div>
