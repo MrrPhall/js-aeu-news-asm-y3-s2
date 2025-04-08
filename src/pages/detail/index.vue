@@ -5,9 +5,18 @@
     import type { ItemType } from '../../utils/type';
     import { useNavbarStore } from '../../stores/navbar';
     import { viewFormater } from '../../utils/view';
+    import { useHead } from '@vueuse/head';
     const router = useRoute();
     const selectItem = computed<ItemType | null>(() => {
-        return items.value.find(item => item.id === Number(router.params.id)) || null;
+        const data = items.value.find(item => item.id === Number(router.params.id)) || null;
+        useHead({
+            title: 'Business Cambodia - ' + data?.title,
+            meta: [
+                { name: 'description', content: 'This is a description for SEO' }
+            ]
+
+        });
+        return data;
     });
 
     const loading = ref<boolean>(true);

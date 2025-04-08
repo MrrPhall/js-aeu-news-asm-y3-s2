@@ -5,7 +5,8 @@
     import type { ItemType, MainMenuItemType } from '../../utils/type';
     import items from '../../data/item';
     import Item from '../../components/Item.vue';
-import menuItems from '../../data/menu';
+    import menuItems from '../../data/menu';
+    import { useHead } from '@vueuse/head';
 
     const loading = ref<boolean>(true);
     const handleLoading = () =>{
@@ -18,20 +19,27 @@ import menuItems from '../../data/menu';
     const navbarStore = useNavbarStore();
     const categorySlug = ref<string>('');
     const itemFilterByCategory = computed<ItemType[]>(() => {
+        useHead({
+            title: 'Business Cambodia - ' + category.value?.title,
+            meta: [
+                { name: 'description', content: 'This is a description for SEO' }
+            ]
+
+        });
         return items.value
                ? items.value.filter(item => item.category_slug === categorySlug.value)
                : []
     });
 
-    const category = computed<MainMenuItemType | null>(() =>{
+    const category = computed<MainMenuItemType | null>(() => {
         return menuItems.value.find(item => item.slug === categorySlug.value) || null;
-    })
+    });
 
     onBeforeRouteUpdate((to: RouteLocationNormalized, _from: RouteLocationNormalized) => {
         categorySlug.value = to.params.id.toString();
         handleLoading();
     });
-   
+
     onMounted(()=>{
         categorySlug.value = router.params.id.toString();
         navbarStore.handleNavbar(false);

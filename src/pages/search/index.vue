@@ -5,15 +5,24 @@
     import type { ItemType } from '../../utils/type';
     import items from '../../data/item';
     import Item from '../../components/Item.vue';
+    import { useHead } from '@vueuse/head';
 
     const route = useRoute();
     const navbarStore = useNavbarStore();
 
     const search = ref<any>('');
     const newsItems = computed<ItemType[] | []>(() => {
-        return items.value
+       const data = items.value
                ? items.value.filter(item => item.title.toLowerCase().includes(search.value.toLocaleLowerCase())) 
                : [];
+        useHead({
+            title: 'Business Cambodia - ' + search.value,
+            meta: [
+                { name: 'description', content: 'This is a description for SEO' }
+            ]
+
+        });
+        return data;
     });
     
     const loading = ref(true);

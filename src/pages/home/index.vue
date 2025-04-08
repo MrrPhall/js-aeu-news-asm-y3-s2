@@ -9,6 +9,7 @@
     import { onMounted, ref } from 'vue';
     import items from '../../data/item';
     import { useNavbarStore } from '../../stores/navbar';
+    import { useHead } from '@vueuse/head';
     const modules = ref([Pagination, A11y, Autoplay]);
     const onSlideChange = () => {
         console.log('slide change');
@@ -19,6 +20,13 @@
     onMounted(()=>{
         navbarStore.handleNavbar(false);
         navbarStore.isHome = true;
+        useHead({
+            title: 'Business Cambodia',
+            meta: [
+                { name: 'description', content: 'This is a description for SEO' }
+            ]
+
+        });
     });
 
 
