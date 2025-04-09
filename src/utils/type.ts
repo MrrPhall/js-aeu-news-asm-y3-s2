@@ -29,6 +29,7 @@ export interface ItemType {
     view: number,
     thumbnail: string,
     detail?: any,
+    noShadow?: boolean
 }
 
 export interface ProfileType {

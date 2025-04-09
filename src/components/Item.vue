@@ -12,11 +12,11 @@
         params: {
             id: props.id,
         }
-    }" class="bg-white shadow-md rounded-2xl">
+    }" class="bg-white rounded-2xl" :class="props.noShadow ? 'shadow-none' : 'shadow-md'">
         <div class="w-full md:h-[180px] group overflow-hidden rounded-lg">
             <img class="h-full w-full transition-all ease-in-out duration-300 object-cover group-hover:scale-[115%]" :src="props.thumbnail" alt="Thumbnail">
         </div>
-        <button class="bg-gray-200 px-3 rounded-sm text-[12px] text-gray-600 mt-4 mx-3">#{{ props.category }}</button>
+        <button class="bg-gray-200 px-3 rounded-sm text-[12px] text-gray-600 my-4 mx-3 shadow-none">#{{ props.category }}</button>
         <h2 class="line-clamp-2 font-bold text-gray-600 mt-4 mx-3 text-[18px]">{{ props.title }}</h2>
         <div class="flex items-center my-4 mx-3 gap-2">
             <img class="h-[50px] w-[50px] rounded-full object-cover" :src="props.author.profile" alt="Profile">
