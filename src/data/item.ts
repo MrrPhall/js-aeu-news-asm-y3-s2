@@ -131,6 +131,192 @@ const items = ref<ItemType[]>([
             </div>
             </div>`
     },
+    {
+        id: 3,
+        title: 'សោកស្តាយផង! អ្នកប្រើទូរស័ព្ទ iPhone ៣ម៉ូឌែលនេះ នឹងគ្មានវាសនាបានប្រើ iOS 19 ទេ',
+        category: 'ចាប់ផ្ដើមអាជីវកម្ម',
+        category_slug: 'business',
+        author: {
+            name: 'Bunthoeun Koem',
+            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
+        },
+        date: 'APRIL 23 2025',
+        view: 150003,
+        thumbnail: 'https://business-cambodia.com/cms/assets/5e0be91d-a7bf-49ad-a08c-5c36c70f4de3',
+        detail: `
+            <div class="body_content pt-2">
+            <div id="part_1_container">
+            <div id="part-1" class="article_body">
+            <p>អ្នកដែលចូលចិត្តនិយមប្រើប្រាស់ iPhone ឮហើយដឹងតែស្រងាកចិត្តហើយ ខណៈថ្មីៗនេះ Apple បានប្រកាសថា iPhone រហូតដល់ទៅ ៣ម៉ូឌែលគឺមិនអាចតម្លើង iOS 19 នោះទេ។ នេះបើយោងតាមការចុះផ្សាយដោយ 9TO5Mac។</p>
+            </div>
+            <div id="gax-inpage-async-1706848424"></div>
+            <div id="type_paragraph-1" class="w-full bg-gray-300 rounded-md">
+            <div><a id="body_ads_0_0_1" href="https://www.oppo.com/kh/smartphones/series-a/a5-pro/" target="_blank" rel="noopener"><img id="oppo-reno-13" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/32b1af30-baf2-4808-9285-08c1eca9beb9" alt="" loading="lazy"></a></div>
+            </div>
+            </div>
+            <div id="gax-inpage-async-1700708404"></div>
+            <div id="part_2_container">
+            <div id="part-2" class="article_body">
+            <p>&nbsp;</p>
+            </div>
+            <ins data-revive-zoneid="3" data-revive-id="f2f0ae7230ea5866b99b115aa1e4ce80"></ins><ins id="revive-0-0" class="flex justify-center" data-revive-zoneid="124" data-revive-id="2d10743d9880200bf17a894cfa35dba0" data-revive-seq="0" data-revive-loaded="1">
+            <div id="beacon_4bda13839e"><img src="https://adservermsa.gpas.co/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=124&amp;loc=https%3A%2F%2Fbusiness-cambodia.com%2Farticles%2Fios-3-model-can-not-update-ios-19&amp;cb=4bda13839e" alt="" width="0" height="0"></div>
+            </ins>
+            <div id="type_paragraph-2" class="w-full bg-gray-300 rounded-md">
+            <div><a id="body_ads_0_0_2" href="https://www.princebank.com.kh/business/chhlat-merchant-account" target="_blank" rel="noopener"><img id="prince-bank" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/14efd968-3200-411a-a882-5ceecec325dd" alt="" loading="lazy"></a></div>
+            </div>
+            </div>
+            <div id="part_3_container">
+            <div id="part-3" class="article_body">
+            <p>ប្រភពដដែលបានបន្តឱ្យដឹងទៀតថា ចំពោះ iPhone ដែលមិនអាចតម្លើង iOS 19 បាននោះ មានដូចជា៖<strong> iPhone XR, XS, XS Max </strong>ខណៈឆ្នាំនេះ Apple អាចនឹងមិនឲ្យឡើងទៅ iOS 19 ទេ ។ ដោយឡែកសម្រាប់ iPhone X ដ៏កម្សត់វិញគឺត្រឹមទទួលបានការអាប់ឌេត Version 16.7.11 ប៉ុណ្ណោះ។</p>
+            </div>
+            <div id="gax-inpage-async-1700708881"></div>
+            <div id="type_paragraph-3" class="w-full bg-gray-300 rounded-md"></div>
+            </div>
+            <div id="part_4_container">
+            <div id="part-4" class="article_body">
+            <p><img src="https://business-cambodia.com/cms/assets/6c73bc90-856b-4e85-91ae-6fbc465734f9?width=1200&amp;height=630" alt="38"></p>
+            </div>
+            <div id="gax-inpage-async-1700708647"></div>
+            </div>
+            <div id="part_5_container">
+            <div id="part-5" class="article_body">
+            <p>គួររំលឹកថា នៅពេលដែលទូរស័ព្ទ iPhone ៣ម៉ូឌែលខាងលើតម្លៃ IOS 19 លែងបានទៀតហើយនោះសម្បីតែការអាប់ដេតផ្នែកសុវត្ថិភាពក៏លេងទទួលបានដែរ ដែលធ្វើឱ្យទូរស័ព្ទយើងគឺងាយរងគ្រោះដោយសារមេរោគ និងលួចចូលនិងការបំពានទិន្នន័យផ្សេងៗផងដែរ៕</p>
+            </div>
+            </div>
+            </div>`
+    },
+    {
+        id: 4,
+        title: 'រដ្ឋកំពុងសិក្សាគម្រោងពង្រីកផ្លូវជាតិលេខ១ ប្រវែងជាង​ ៥០ Km និងគម្រោងស្ពានថ្មីឆ្លងកាត់ទន្លេមេគង្គ',
+        category: 'អចលនទ្រព្យ',
+        category_slug: 'real-estate',
+        author: {
+            name: 'Bunthoeun Koem',
+            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
+        },
+        date: 'APRIL 23 2025',
+        view: 150003,
+        thumbnail: 'https://business-cambodia.com/cms/assets/e7d5a5a5-faf3-446a-81f9-7b0bd32bebee',
+        detail: `<div id="article_thumbnail" class="mb-6">
+                <div id="part_1_container">
+                <div id="part-1" class="article_body">
+                <p>រាជរដ្ឋាភិបាល តាមរយៈក្រសួងសាធារណការ​ និងដឹកជញ្ជូន បាននិងកំពុងសិក្សាការពង្រីកកំណាត់ផ្លូវជាតិលេខ១ ប្រវែង ៥២,៨ គីឡូម៉ែត្រ និងគម្រោងសាងសង់ស្ពានថ្មីឆ្លងកាត់ទន្លេមេគង្គ (សាងសង់ស្ពាន និងផ្លូវតភា្ជប់ស្ពាន)។</p>
+                </div>
+                <div id="gax-inpage-async-1706848424"></div>
+                <div id="type_paragraph-1" class="w-full bg-gray-300 rounded-md">
+                <div><a id="body_ads_0_0_1" href="https://www.oppo.com/kh/smartphones/series-a/a5-pro/" target="_blank" rel="noopener"><img id="oppo-reno-13" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/32b1af30-baf2-4808-9285-08c1eca9beb9" alt="" loading="lazy"></a></div>
+                </div>
+                </div>
+                <div id="gax-inpage-async-1700708404"></div>
+                <div id="part_2_container">
+                <div id="part-2" class="article_body">
+                <p>&nbsp;</p>
+                </div>
+                <ins data-revive-zoneid="3" data-revive-id="f2f0ae7230ea5866b99b115aa1e4ce80"></ins><ins class="flex justify-center" data-revive-zoneid="124" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins>
+                <div id="type_paragraph-2" class="w-full bg-gray-300 rounded-md">
+                <div><a id="body_ads_0_0_2" href="https://www.princebank.com.kh/business/chhlat-merchant-account" target="_blank" rel="noopener"><img id="prince-bank" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/14efd968-3200-411a-a882-5ceecec325dd" alt="" loading="lazy"></a></div>
+                </div>
+                </div>
+                <div id="part_3_container">
+                <div id="part-3" class="article_body">
+                <p><img src="https://business-cambodia.com/cms/assets/d88ee4ee-3952-41f2-9125-6b3cd744a828?width=1280&amp;height=718" alt="489014001 982477334063261 8292445428020966375 N"></p>
+                </div>
+                <div id="gax-inpage-async-1700708881"></div>
+                <div id="type_paragraph-3" class="w-full bg-gray-300 rounded-md"></div>
+                </div>
+                <div id="part_4_container">
+                <div id="part-4" class="article_body">
+                <p>&nbsp;</p>
+                </div>
+                <div id="gax-inpage-async-1700708647"></div>
+                </div>
+                <div id="part_5_container">
+                <div id="part-5" class="article_body">
+                <p>ជ្ដាក់ស្ដែងកាលពីថ្ងៃទី៤ ខែមេសា ឆ្នាំ២០២៥ លោក ឈឹម ផល្លា មន្រ្តីបង្គោលគម្រោង បានដឹកនាំ មន្រ្តីគម្រោងចូលរួម កិច្ចប្រជុំ ស្តីពីការពិនិត្យពិភាក្សាលើលក្ខខណ្ឌយោង (Term of Reference) សម្រាប់ការសិក្សាសមិទ្ធិលទ្ធភាព នៃគម្រោងកែលម្អកំណាត់ផ្លូវជាតិលេខ ១ និងសាងសង់ស្ពានថ្មីឆ្លងកាត់ទន្លេមេគង្គខាងលើ ដោយមានការអញ្ជើញចូលរួមក្រោមអធិបតីភាព ឯកឧត្តម ប៉ែន ធីរុង្គ អនុរដ្ឋលេខាធិការក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ ព្រមទាំងមានការចូលរួមពី តំណាងទីភ្នាក់ងារសហប្រតិបត្តិការអន្តរជាតិនៃប្រទេសជប៉ុន(JICA) ផងដែរ។</p>
+                </div>
+                <ins class="flex justify-center" data-revive-zoneid="85" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins></div>
+                <div id="the_rest_container">
+                <div id="gax-inpage-async-1726803621"></div>
+                <div id="the-rest" class="article_body">
+                <p>&nbsp;</p>
+                <p>បើតាមប្រសាសន៍របស់សម្ដេចធិបតី ហ៊ុន ម៉ាណែត នាយករដ្ឋមន្ដ្រីនៃព្រះរាជាណាចក្រកម្ពុជា ក្នុងពិធីសម្ពោធដាក់ឲ្យប្រើប្រាស់ស្ពានអាកាសមរតកតេជោ កាលពីថ្ងៃទី៧ ខែមេសា ឆ្នាំ២០២៥ បានឲ្យដឹងថា ការកសាងហេដ្ឋារចនាសម្ព័ន្ធតភ្ជាប់នេះ គឺដើម្បីឆ្លើយតបទៅនឹងតម្រូវការផ្លូវឆ្លងកាត់ភ្នំពេញ និងតំបន់អរិយក្សត្រ ដែលនឹងរីកធំ ហើយអាចនឹងមានមនុស្សរស់នៅច្រើន នាពេលអនាគត។</p>
+                <p>&nbsp;</p>
+                <p>ក្នុងនោះបច្ចុប្បន្នរាជរដ្ឋាភិបាលមានគម្រោងសាងសង់ស្ពានតភ្ជាប់ជាច្រើនផងដែរ ដោយក្នុងនោះរួមមាន៖ ស្ពានមិត្ដភាពកម្ពុជា-កូរ៉េ (ភ្ជាប់ពីតំបន់ផ្សារចាស់ទៅតំបន់ជ្រោយចង្វារ និងពីតំបន់ជ្រោយចង្វារឆ្លងកាត់ទន្លេមេគង្គឆ្ពោះទៅតំបន់អរិយក្សត្រ) និងស្ពានឆ្លងកាត់ទន្លេមេគង្គ (ដីឥដ្ឋ-ថ្មគរ)។ ក្រៅពីនោះក៏ត្រៀមសាងសង់ស្ពានឆ្លងកាត់ទន្លេមេគង្គនៅចន្លោះស្ពានទាំងពីរនេះបន្ថែមផងដែរ៕</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><img src="https://business-cambodia.com/cms/assets/4c9952fd-670f-4d07-a538-93807789f6b3?width=1200&amp;height=630" alt="Ba64547c 6358 4dec B834 34659c000cd5"></p>
+                <p><img src="https://business-cambodia.com/cms/assets/83a9ce7f-4f9d-4244-b770-42e54031b1ca?width=960&amp;height=540" alt="Property News 09 06 2020 3"></p>
+                <p><img src="https://business-cambodia.com/cms/assets/141d2fa3-51d3-45ec-819c-bee18bd5401d?width=843&amp;height=561" alt="F2ff5165 38a0 46ec B2f5 565e17398880"></p>
+                </div>
+                </div>
+                </div>`
+    },
+    {
+        id: 5,
+        title: 'ទោះជាក្រុមហ៊ុនអាមេរិកក្តីតែ Starbucks អាចប្រឈមនឹងវិបត្តិ១នេះ ក្រោយការដំឡើងពន្ធរបស់ Trump',
+        category: 'ភាពជាអ្នកដឹកនាំ',
+        category_slug: 'leadership',
+        author: {
+            name: 'Bunthoeun Koem',
+            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
+        },
+        date: 'APRIL 23 2025',
+        view: 150003,
+        thumbnail: 'https://business-cambodia.com/cms/assets/7e4e1cb8-541c-49af-8a59-05bb74e8d747',
+        detail: `<div id="article_thumbnail" class="mb-6">
+            <div id="part_1_container">
+            <div id="part-1" class="article_body">
+            <div id="part_1_container">
+            <div id="part-1" class="article_body">
+            <p>នៅប៉ុន្មានត្រីមាសចុងក្រោយនេះ លោក <strong>Brain Nicco</strong>l ដែលជា <strong>CEO </strong>ទើបឡើងកាន់តំណែងថ្មីនៅក្រុមហ៊ុន <strong>Starbucks</strong> កំពុងប្រឹងប្រែងពង្រឹងកំណើននៃការលក់របស់កាហ្វេ Starbucks តាមរយៈយុទ្ធសាស្រ្តរក្សាតម្លៃមិនឱ្យកើនថ្លៃ។</p>
+            </div>
+            <div id="gax-inpage-async-1706848424"></div>
+            <div id="type_paragraph-1" class="w-full bg-gray-300 rounded-md">
+            <div><a id="body_ads_0_0_1" href="https://www.oppo.com/kh/smartphones/series-a/a5-pro/" target="_blank" rel="noopener"><img id="oppo-reno-13" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/32b1af30-baf2-4808-9285-08c1eca9beb9" alt="" loading="lazy"></a></div>
+            </div>
+            </div>
+            <div id="gax-inpage-async-1700708404"></div>
+            <div id="part_2_container">
+            <div id="part-2" class="article_body">
+            <p>&nbsp;</p>
+            </div>
+            <ins data-revive-zoneid="3" data-revive-id="f2f0ae7230ea5866b99b115aa1e4ce80"></ins><ins class="flex justify-center" data-revive-zoneid="124" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins>
+            <div id="type_paragraph-2" class="w-full bg-gray-300 rounded-md">
+            <div><a id="body_ads_0_0_2" href="https://www.princebank.com.kh/business/chhlat-merchant-account" target="_blank" rel="noopener"><img id="prince-bank" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/14efd968-3200-411a-a882-5ceecec325dd" alt="" loading="lazy"></a></div>
+            </div>
+            </div>
+            <div id="part_3_container">
+            <div id="part-3" class="article_body">
+            <p>ស្របពេលដែលការដំឡើងពន្ធគយរបស់រដ្ឋបាលលោក Trump​ អាចធ្វើឱ្យ Starbucks ប្រឈមនឹងការកើនតម្លៃលើសមុន ធ្វើឱ្យក្រុមហ៊ុនពិបាកសម្រេចគោលដៅ។ &nbsp;</p>
+            </div>
+            <div id="gax-inpage-async-1700708881"></div>
+            <div id="type_paragraph-3" class="w-full bg-gray-300 rounded-md"></div>
+            </div>
+            <div id="part_4_container">
+            <div id="part-4" class="article_body">
+            <p>&nbsp;</p>
+            </div>
+            <div id="gax-inpage-async-1700708647"></div>
+            </div>
+            <div id="part_5_container">
+            <div id="part-5" class="article_body">
+            <p>តាមប្រភពពី The Street បានឱ្យដឹងថា ថ្វីត្បិតតែ Starbucks ជាក្រុមហ៊ុនរបស់អាមេរិកក្តី តែកាហ្វេភាគច្រើនត្រូវបាននាំចូលពីប្រទេសជាង៣០នៅជុំវិញពិភពលោក ដោយប្រភពកាហ្វេនិងវត្ថុធាតុដើមសំខាន់ៗនាំចូលពីតំបន់ចំនួនបីរួមមាន អាមេរិកឡាទីន អាហ្វ្រិក និងអាស៊ីប៉ាស៊ីហ្វិក។</p>
+            </div>
+            <ins class="flex justify-center" data-revive-zoneid="85" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins></div>
+            <div id="the_rest_container">
+            <div id="gax-inpage-async-1726803621"></div>
+            <div id="the-rest" class="article_body">
+            <p>&nbsp;</p>
+            <p>ក្នុងនោះតំបន់អាស៊ីគឺជាតំបន់មួយដែលរដ្ឋបាល Trump ដាក់ពន្ធខ្ពស់បំផុតកាលពីថ្ងៃទី០២មេសា។ ជាក់ស្តែងប្រទេសវៀតណាម កំពុងប្រឈមមុខនឹងពន្ធ៤៦% លើទំនិញដែលនាំចូលទៅកាន់អាមេរិក ខណៈវៀតណាមក៏ជាដៃគូផ្តត់ផ្គង់គ្រាប់កាហ្វេអារ៉ាប៊ីកា ​កម្រិតខ្ពស់មួយសម្រាប់សហរដ្ឋអាមេរិកផងដែរ។</p>
+            <p>&nbsp;</p>
+            <p>សូមបញ្ជាក់ថាគោលដៅរបស់ Starbucks គឺជាការស្តារអាជីវកម្មដើម្បីប្រកួតប្រជែងជាមួយដៃគូដែលលក់កាហ្វេក្នុងតម្លៃថោក តាមរយៈការរក្សាគុណភាពមិនឱ្យចាញ់ គូប្រជែងថ្មីៗ សម្រួលម៉ឺនុយឱ្យខ្លីជាងមុន និងរក្សាតម្លៃមិនឱ្យកើនឡើងនៅឆ្នាំ២០២៥នេះ៕</p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>`
+    },
     
 ]);
 

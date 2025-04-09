@@ -1,8 +1,19 @@
 <script setup lang="ts">
 
-    import type { CarouselType } from '../utils/type';
+import router from '../routers/router';
+import type { CarouselType } from '../utils/type';
 
+    const route = router;
     const props = defineProps<CarouselType>();
+
+    const handleNavigation = (e: number) =>{
+        route.push({
+            name: 'detail',
+            params: {
+                id: e,
+            }
+        });
+    }
     
 </script>
 <template>
@@ -20,7 +31,7 @@
                     <span>{{ props.date }}</span>
                 </div>
                 <div class="flex items-center gap-2 mt-4">
-                    <button class="h-[50px] bg-white text-gray-600 px-10 border-[1px] border-white transition-all duration-700 hover:bg-transparent hover:text-white">បន្តការអាន</button>
+                    <button @click="handleNavigation(props.id)" class="h-[50px] bg-white text-gray-600 px-10 border-[1px] border-white transition-all duration-700 hover:bg-transparent hover:text-white cursor-pointer">បន្តការអាន</button>
                     <button class="h-[50px] bg-gray-400 text-gray-600 px-10 border-[1px] border-white transition-all duration-700 hover:bg-red-500 hover:text-white">អំពីអ្នកនិពន្ធ</button>
                 </div>
             </div>
