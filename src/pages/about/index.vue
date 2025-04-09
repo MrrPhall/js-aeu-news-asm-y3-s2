@@ -3,7 +3,7 @@
     import { useNavbarStore } from '../../stores/navbar';
     import Profile from '../../components/Profile.vue';
     import profiles from '../../data/profile';
-import { useHead } from '@vueuse/head';
+    import { useHead } from '@vueuse/head';
 
     const loading = ref<boolean>(true);
     const handleLoading = () =>{
@@ -18,7 +18,7 @@ import { useHead } from '@vueuse/head';
         navbarStore.handleNavbar(true);
         navbarStore.isHome = false;
         useHead({
-            title: 'Business Cambodia - About Us',
+            title: 'Global News - About Us',
             meta: [
                 { name: 'description', content: 'This is a description for SEO' }
             ]

@@ -20,7 +20,7 @@
     const categorySlug = ref<string>('');
     const itemFilterByCategory = computed<ItemType[]>(() => {
         useHead({
-            title: 'Business Cambodia - ' + category.value?.title,
+            title: 'Global News - ' + category.value?.title,
             meta: [
                 { name: 'description', content: 'This is a description for SEO' }
             ]

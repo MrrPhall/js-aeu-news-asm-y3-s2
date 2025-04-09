@@ -16,7 +16,7 @@
                ? items.value.filter(item => item.title.toLowerCase().includes(search.value.toLocaleLowerCase())) 
                : [];
         useHead({
-            title: 'Business Cambodia - ' + search.value,
+            title: 'Global News - ' + search.value,
             meta: [
                 { name: 'description', content: 'This is a description for SEO' }
             ]

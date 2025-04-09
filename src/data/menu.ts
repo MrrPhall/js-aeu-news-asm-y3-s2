@@ -32,12 +32,6 @@ const menuItems = ref<MainMenuItemType[]>([
         description: 'នាំប្រជាជនខ្មែរ យល់ពីចំណេះដឹងហិរញ្ញវត្ថុ តាមឱ្យទាន់របត់បច្ចេកវិទ្យា',
         thumbnail: 'https://business-cambodia.com/cms/assets/87b496ef-ebb7-4085-80b5-84d09176fbf7',
     },
-    {
-        slug: 'pr',
-        title: 'PR',
-        description: 'ជួយឱ្យសេវាកម្ម ផលិតផល និងយីហោរបស់លោកអ្នក ទៅដល់ដៃអតិថិជនលឿនបំផុត',
-        thumbnail: 'https://business-cambodia.com/cms/assets/01d48038-e3d0-4cea-9c57-562439f6ae1b',
-    },
 ]);
 
 export default menuItems;

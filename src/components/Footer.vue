@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue/dist/iconify.js';
 import menuItems from '../data/menu';
+import logo from '../../public/images/logo/logo.png';
 
 </script>
 
@@ -56,8 +57,8 @@ import menuItems from '../data/menu';
                         {{ item.title }}
                     </RouterLink>
                 </div>
-                <div class="p-2 bg-white flex items-center justify-center rounded-2xl mt-5">
-                    <img class="w-[150px]" src="https://business-cambodia.com/static/logo.png" alt="Logo">
+                <div class="p-2 flex items-center justify-center rounded-2xl mt-5">
+                    <img class="w-[150px]" :src="logo">
                 </div>
                 <h1 class="font-bold">Assigment Javascript</h1>
                 <h1 class="text-[13px] mt-2">បំផុសគំនិតរកស៊ី នាំមនុស្សឱ្យហ៊ានចេញរកស៊ីតាមក្ដីស្រមៃ</h1>
@@ -68,7 +69,7 @@ import menuItems from '../data/menu';
                     <RouterLink :to="{
                         name: 'home'
                     }">
-                        017 300 755/093 300 755
+                        097 2444 595/096 8253 340
                     </RouterLink>
                 </h3>
                 <RouterLink class="text-right mt-5 text-[14px]" :to="{
@@ -79,6 +80,6 @@ import menuItems from '../data/menu';
                     </RouterLink>
             </div>
         </div>
-        <div class="flex items-center justify-center gap-2 w-full text-white text-[14px] mb-3">រក្សាសិទ្ធិដោយ Business Cambodia <Icon icon="solar:copyright-linear"/> 2025</div>
+        <div class="flex items-center justify-center gap-2 w-full text-white text-[14px] mb-3">រក្សាសិទ្ធិដោយ Global News <Icon icon="solar:copyright-linear"/> 2025</div>
     </footer>
 </template>

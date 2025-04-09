@@ -10,7 +10,7 @@
     const selectItem = computed<ItemType | null>(() => {
         const data = items.value.find(item => item.id === Number(router.params.id)) || null;
         useHead({
-            title: 'Business Cambodia - ' + data?.title,
+            title: 'Global News - ' + data?.title,
             meta: [
                 { name: 'description', content: 'This is a description for SEO' }
             ]

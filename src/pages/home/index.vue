@@ -21,7 +21,7 @@
         navbarStore.handleNavbar(false);
         navbarStore.isHome = true;
         useHead({
-            title: 'Business Cambodia',
+            title: 'Global News',
             meta: [
                 { name: 'description', content: 'This is a description for SEO' }
             ]
