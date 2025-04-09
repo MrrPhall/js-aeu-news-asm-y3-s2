@@ -85,7 +85,7 @@
                     @slideChange="onSlideChange"
                     :class="{ 'no-shadow': !selectItem?.noShadow }"
                 >
-                    <swiper-slide v-for="item in items" :key="item.id">
+                    <swiper-slide v-for="item in relatedItem" :key="item.id">
                         <div class="shadow-md rounded-2xl bg-white">
                             <Item
                                 :id="item.id"
