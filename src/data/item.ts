@@ -317,6 +317,69 @@ const items = ref<ItemType[]>([
             </div>
             </div>`
     },
+    // News
+    {
+        id: 6,
+        title: 'ក្រុមហ៊ុន BYD ចាប់ផ្ដើមសាងសង់រោងចក្រនៅកម្ពុជា ខណៈរថយន្ដ ២ ប្រភេទនេះនឹងត្រូវដំឡើងពេលបើកដំណើរការ',
+        category: 'ពត៌មានថ្មីៗ',
+        category_slug: 'news',
+        author: {
+            name: 'Bunthoeun Koem',
+            profile: 'https://business-cambodia.com/cms/assets/ece42c55-6cb8-4d51-9551-9d3470c2748a',
+        },
+        date: 'APRIL 28 2025',
+        view: 150003,
+        thumbnail: 'https://business-cambodia.com/cms/assets/a9a31775-d5d4-4c35-9f33-1951858adc15?format=webp',
+        detail: `<div id="part_1_container">
+            <div id="part-1" class="article_body">
+            <p>នៅថ្ងៃទី២៨ ខែមេសា ឆ្នាំ២០២៥ នេះ ក្រុមហ៊ុន BYD Cambodia ដែលជាបុត្រសម្ព័ន្ធរបស់ក្រុមហ៊ុន BYD Auto Industry បានរៀបចំពិធីបើកការដ្ឋានសាងសង់រោងចក្រដំឡើងរថយន្ដដំបូងរបស់ខ្លួននៅក្នុងប្រទេសកម្ពុជា។ ដោយកម្មវិធីនេះក៏មានការអញ្ជើញចូលរួមក្រោមអធិបតីភាព ឯកឧត្ដម ស៊ុន ចាន់ថុល ឧបនាយករដ្ឋមន្ដ្រី អនុប្រធានទី១ ក្រុមប្រឹក្សាអភិវឌ្ឍន៍កម្ពុជា តំណាងដ៏ខ្ពង់ខ្ពស់សម្ដេចធិបតីនាយករដ្ឋមន្ដ្រី។</p>
+            </div>
+            <div id="gax-inpage-async-1706848424"></div>
+            <div id="type_paragraph-1" class="w-full bg-gray-300 rounded-md">
+            <div><a id="body_ads_0_0_1" href="https://www.oppo.com/kh/smartphones/series-a/a5-pro/" target="_blank" rel="noopener"><img id="oppo-" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/32b1af30-baf2-4808-9285-08c1eca9beb9?format=webp" alt="" loading="lazy"></a></div>
+            </div>
+            </div>
+            <div id="gax-inpage-async-1700708404"></div>
+            <div id="part_2_container">
+            <div id="part-2" class="article_body">
+            <p>&nbsp;</p>
+            </div>
+            <ins data-revive-zoneid="3" data-revive-id="be324e6560a50470e76f3c9d22c2ea27"></ins><ins class="flex justify-center" data-revive-zoneid="124" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins>
+            <div id="type_paragraph-2" class="w-full bg-gray-300 rounded-md">
+            <div><a id="body_ads_0_0_2" href="https://www.princebank.com.kh/business/chhlat-merchant-account" target="_blank" rel="noopener"><img id="prince-bank" class="my-2 w-full rounded-md" src="https://business-cambodia.com/cms/assets/14efd968-3200-411a-a882-5ceecec325dd?format=webp" alt="" loading="lazy"></a></div>
+            </div>
+            </div>
+            <div id="part_3_container">
+            <div id="part-3" class="article_body">
+            <p><img src="https://business-cambodia.com/cms/assets/94b2bdb9-560b-4e5b-bd76-b0942e0824ff?width=2048&amp;height=1365" alt="493838590 122257518710029244 3284757349528381512 N"></p>
+            </div>
+            <div id="gax-inpage-async-1700708881"></div>
+            <div id="type_paragraph-3" class="w-full bg-gray-300 rounded-md"></div>
+            </div>
+            <div id="part_4_container">
+            <div id="part-4" class="article_body">
+            <p>&nbsp;</p>
+            </div>
+            <div id="gax-inpage-async-1700708647"></div>
+            </div>
+            <div id="part_5_container">
+            <div id="part-5" class="article_body">
+            <p>តាមការបញ្ជាក់ពីក្រុមហ៊ុន BYD Cambodia មកកាន់ Business Cambodia បានឲ្យដឹងថា រោងចក្រនេះគ្រោងនឹងបណ្ដាក់ទុនប្រមាណ ៣២លានដុល្លារអាម៉េរិក សម្រាប់ដំណាក់កាលទី១ លើការបង្កើតរោងចក្រផ្គុំដំឡើងយានយន្តប្រភេទ CKD នៅលើផ្ទៃដីប្រមាណ ១២ហិកតា ក្នុងតំបន់សេដ្ឋកិច្ចពិសេសក្រុងព្រះសីហនុ ដើម្បីដំឡើងរថយន្ដ២ប្រភេទគឺ <strong>រថយន្តអគ្គិសនីសុទ្ធ (</strong><strong>EV) </strong><strong>និងអគ្គិសនីលាយសាំង (PHEV) </strong>ជាមួយនឹងសមត្ថភាពដំឡើងរថយន្តប្រមាណ ១ម៉ឺនគ្រឿង ក្នុងមួយឆ្នាំៗ ទៅតាមដំណាក់កាល។</p>
+            </div>
+            <ins class="flex justify-center" data-revive-zoneid="85" data-revive-id="2d10743d9880200bf17a894cfa35dba0"></ins></div>
+            <div id="the_rest_container">
+            <div id="gax-inpage-async-1726803621"></div>
+            <div id="the-rest" class="article_body">
+            <p>&nbsp;</p>
+            <p><img src="https://business-cambodia.com/cms/assets/cd1b3621-7e61-4eb0-9e1d-13a8a9ed8c9e?width=2048&amp;height=1365" alt="494523267 122257518794029244 4609060770949517569 N"></p>
+            <p>&nbsp;</p>
+            <p>សូមជម្រាបថា រោងចក្រដំឡើងរថយន្ត BYD Cambodia គ្រោងនឹងបញ្ចប់ការសាងសង់នៅខែតុលា និងចាប់ផ្តើមដំណើការផលិតកម្មដំឡើងរថយន្តអគ្គិសនីជាលើកដំបូងនៅកម្ពុជា នាដើមខែវិច្ឆិកា ឆ្នាំ២០២៥ ខាងមុខនេះ។ សម្រាប់លោកអ្នកដែលចាប់អារម្មណ៍ក្នុងការប្រើប្រាស់រថយន្ដអគ្គិសនី BYD អាចធ្វើការទំនាក់ទំនងលេខទូរស័ព្ទ៖​​ 𝟬𝟭𝟳 𝟱𝟱𝟱 𝟵𝟮𝟰 ឬហ្វេសប៊ុកផេក <a href="https://www.facebook.com/BYDCambodiaOfficial" target="_blank" rel="noopener">BYD Cambodia</a> ដើម្បីទទួលបានព័ត៌មានលម្អិត៕</p>
+            <p>&nbsp;</p>
+            <p><img src="https://business-cambodia.com/cms/assets/c9599b94-5047-4580-a836-a10d6b9a5a42?width=2048&amp;height=1366" alt="494044500 122257518842029244 1328772887401809680 N"></p>
+            <p><img src="https://business-cambodia.com/cms/assets/1972da38-2dd9-48d7-8043-c595094f7b0a?width=2048&amp;height=1365" alt="493998441 122257518662029244 3176357109571599809 N"></p>
+            </div>
+            </div>`
+    },
     
 ]);
 

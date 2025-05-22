@@ -61,7 +61,6 @@ import logo from '../../public/images/logo/logo.png';
                     <img class="w-[150px]" :src="logo">
                 </div>
                 <h1 class="font-bold">Assigment Javascript</h1>
-                <h1 class="text-[13px] mt-2">បំផុសគំនិតរកស៊ី នាំមនុស្សឱ្យហ៊ានចេញរកស៊ីតាមក្ដីស្រមៃ</h1>
             </div>
             <div class="flex justify-start flex-col items-center md:items-end">
                 <h1 class="text-[18px] font-bold">ទំនាក់ទំនងមកពួកយើង</h1>
